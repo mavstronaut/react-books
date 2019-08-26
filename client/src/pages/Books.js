@@ -114,7 +114,7 @@ class Books extends Component {
                                             title={book.volumeInfo.title}
                                             author={(book.volumeInfo.authors) ? (book.volumeInfo.authors[0]) : ("Anonymous")}
                                             href={book.volumeInfo.previewLink}
-                                            thumbnail={(book.volumeInfo.imageLinks) ? (book.volumeInfo.imageLinks.thumbnail) : ("http://blogs.smithsonianmag.com/design/files/2013/03/smiley-face-1.jpg")}
+                                            thumbnail={(book.volumeInfo.imageLinks) ? (book.volumeInfo.imageLinks.thumbnail) : ("https://iconutopia.com/wp-content/uploads/2016/06/rocket-book.png")}
                                             description={book.volumeInfo.description}
                                             save={this.handleSave}
                                             index={i}
@@ -137,7 +137,7 @@ class Books extends Component {
                                         title={book.title}
                                         author={book.author}
                                         href={book.link}
-                                        thumbnail={(book.thumbnail) ? (book.thumbnail) : ("http://blogs.smithsonianmag.com/design/files/2013/03/smiley-face-1.jpg")}
+                                        thumbnail={(book.thumbnail) ? (book.thumbnail) : ("https://iconutopia.com/wp-content/uploads/2016/06/rocket-book.png")}
                                         description={book.description}
                                         delete={this.handleDelete}
                                         index={i}
